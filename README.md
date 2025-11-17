@@ -1,8 +1,6 @@
 # Turbo.Az - React + TypeScript
 
-Bu layihə React + TypeScript frontend istifadə edir. Məlumatlar frontend-də saxlanılır, backend lazım deyil.
-
-## Struktur
+## Project Structure
 
 ```
 Tubo.az-main/
@@ -19,29 +17,44 @@ Tubo.az-main/
 └── img/               # Şəkillər
 ```
 
-## Quraşdırma
 
-### Frontend
+## ✨ Features
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+66 car listings (static dataset)
 
-Frontend `http://localhost:5173` ünvanında işləyəcək.
+Advanced filtering, including:
 
-## Xüsusiyyətlər
+Brand
 
-- ✅ 66 avtomobil məlumatı
-- ✅ Filtrləmə funksionallığı (Marka, Model, Şəhər, Qiymət, Valyuta, Ban növü, İl)
-- ✅ Kredit/Barter filtrləri
-- ✅ Yeni/Sürülmüş seçimi
-- ✅ "Daha çox göstər" funksionallığı
-- ✅ Responsive dizayn
+Model
 
-## Texnologiyalar
+City
 
-- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS
-- **Package Manager**: npm
+Price
+
+Currency
+
+Body type
+
+Year
+
+Credit / Barter filters
+
+New / Used car selection
+
+“Show More” functionality for loading additional listings
+
+Responsive design for all devices
+
+## 🛠️ Technologies Used
+
+React 18
+
+TypeScript
+
+Vite
+
+Tailwind CSS
+
+npm (package management)
 
